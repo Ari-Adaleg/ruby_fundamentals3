@@ -24,3 +24,24 @@ end
 my_dogs.each do |m|
 	puts call_absent_dogs(m)
 end
+
+her_dogs = [
+ 	{
+ 		:name => 'Donny',
+ 		:position => 9
+ 	},
+
+ 	{
+ 		:name => 'Fluffy',
+ 		:position => 18
+ 	},
+
+ 	{
+ 		:name => 'Spot',
+ 		:position => 15
+ 	}
+]
+
+her_dogs.each do |m|
+	puts call_absent_dogs(m)
+end
